@@ -1,0 +1,112 @@
+body {
+    margin: 8px;
+    padding: 18px;
+    background-color: rgba(192, 192, 210, 0.353);
+}
+
+.container {
+    color: black;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+
+/* ALL TINGS NAVIGATION */
+.left {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+
+.nav {
+    list-style-type: none;
+    width: 40px;
+    border-right: 2px solid red;
+    padding: 10px;
+}
+
+/* list-style-type: none to remove the 'dots" */
+li {
+    list-style-type: none;
+    margin: 25px;
+    padding: 10px;
+    width: 9.5%;
+    font-style: italic;
+}
+
+li>h5 {}
+
+#qrcode {}
+
+.nav li a {
+    display: block;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+/*^^^^^^ navigation ^^^^^^^*/
+.centre {
+    margin-right: -38%;
+    margin-top: -560px;
+    float: right;
+}
+
+/* https://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css */
+.header_img {}
+
+.title_txt {
+    margin: -90px;
+    margin-right: 500px;
+    color: black;
+    float: right;
+    text-align: right;
+    width: 20%;
+}
+
+/* buttons for social media */
+.socialmedia_buttons {
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.socialmedia {
+    margin: 8px;
+    padding: 10px;
+
+}
+
+.biography {
+    width: 56%;
+    margin: 10px;
+    margin-right: -10%;
+}
+
+.experience {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -215px;
+    margin-right: -40px;
+    text-align: right;
+    width: 26%;
+    float: right;
+}
+
+.experience>h2 {
+    margin-right: 30px;
+}
+
+.experience>p {
+    margin: 34.5px;
+}
+
+.about_me {
+    margin-left: -146px;
+    width: 100%;
+}
